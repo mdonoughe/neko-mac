@@ -105,31 +105,30 @@
 
 - (void)calcDxDyForX:(float)x Y:(float)y
 {
-    float			MouseX, MouseY;
-    double		LargeX, LargeY;
-    double		DoubleLength, Length;
+	float		MouseX, MouseY;
+	float		DeltaX, DeltaY;
+	float		Length;
 	
-    NSPoint p = [NSEvent mouseLocation];
+	NSPoint p = [NSEvent mouseLocation];
 	MouseX = p.x;
 	MouseY = p.y;
 	
-    LargeX = (double)(MouseX - x - 16);
-    LargeY = (double)(MouseY - y);
+	DeltaX = floor(MouseX - x - 16.0f);
+	DeltaY = floor(MouseY - y);
 	
-    DoubleLength = LargeX * LargeX + LargeY * LargeY;
+	Length = hypotf(DeltaX, DeltaY);
 	
-    if (DoubleLength != (double)0) {
-		Length = sqrt(DoubleLength);
-		if (Length <= 13) {
-			moveDx = (float)LargeX;
-			moveDy = (float)LargeY;
+	if (Length != 0.0f) {
+		if (Length <= 13.0f) {
+			moveDx = DeltaX;
+			moveDy = DeltaY;
 		} else {
-			moveDx = (float)((13 * LargeX) / Length);
-			moveDy = (float)((13 * LargeY) / Length);
+			moveDx = (13.0f * DeltaX) / Length;
+			moveDy = (13.0f * DeltaY) / Length;
 		}
-    } else {
-		moveDx = moveDy = 0;
-    }
+	} else {
+		moveDx = moveDy = 0.0f;
+	}
 }
 
 - (BOOL)isNekoMoveStart
