@@ -94,6 +94,7 @@
 		A700284B0CA6CB7B0057F7E4 /* upright2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = upright2.gif; sourceTree = "<group>"; };
 		A700284C0CA6CB7B0057F7E4 /* utogi1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = utogi1.gif; sourceTree = "<group>"; };
 		A700284D0CA6CB7B0057F7E4 /* utogi2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = utogi2.gif; sourceTree = "<group>"; };
+		A78E7A3E1A575EFE008B4180 /* Neko.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Neko.entitlements; sourceTree = "<group>"; };
 		A7B9FF1C1A575C310074B4D4 /* Neko.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Neko.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +151,7 @@
 		29B97314FDCFA39411CA2CEA /* 猫 */ = {
 			isa = PBXGroup;
 			children = (
+				A78E7A3E1A575EFE008B4180 /* Neko.entitlements */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -248,8 +250,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					8D1107260486CEB800E47090 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "猫" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Neko" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -346,6 +357,8 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Neko.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -364,6 +377,8 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Neko.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
@@ -408,7 +423,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "猫" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Neko" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
