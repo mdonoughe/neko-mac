@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string></string>
+	<string>Neko.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.yourcompany.neko</string>
 	<key>CFBundleInfoDictionaryVersion</key>

@@ -45,6 +45,7 @@
 		A700286B0CA6CB7B0057F7E4 /* upright2.gif in Resources */ = {isa = PBXBuildFile; fileRef = A700284B0CA6CB7B0057F7E4 /* upright2.gif */; };
 		A700286C0CA6CB7B0057F7E4 /* utogi1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A700284C0CA6CB7B0057F7E4 /* utogi1.gif */; };
 		A700286D0CA6CB7B0057F7E4 /* utogi2.gif in Resources */ = {isa = PBXBuildFile; fileRef = A700284D0CA6CB7B0057F7E4 /* utogi2.gif */; };
+		A7B9FF1D1A575C310074B4D4 /* Neko.icns in Resources */ = {isa = PBXBuildFile; fileRef = A7B9FF1C1A575C310074B4D4 /* Neko.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,7 @@
 		A700284B0CA6CB7B0057F7E4 /* upright2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = upright2.gif; sourceTree = "<group>"; };
 		A700284C0CA6CB7B0057F7E4 /* utogi1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = utogi1.gif; sourceTree = "<group>"; };
 		A700284D0CA6CB7B0057F7E4 /* utogi2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = utogi2.gif; sourceTree = "<group>"; };
+		A7B9FF1C1A575C310074B4D4 /* Neko.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Neko.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A7B9FF1C1A575C310074B4D4 /* Neko.icns */,
 				A700282E0CA6CB7B0057F7E4 /* awake.gif */,
 				A700282F0CA6CB7B0057F7E4 /* down1.gif */,
 				A70028300CA6CB7B0057F7E4 /* dtogi1.gif */,
@@ -278,6 +281,7 @@
 				A70028540CA6CB7B0057F7E4 /* dwleft2.gif in Resources */,
 				A70028550CA6CB7B0057F7E4 /* dwright1.gif in Resources */,
 				A70028560CA6CB7B0057F7E4 /* dwright2.gif in Resources */,
+				A7B9FF1D1A575C310074B4D4 /* Neko.icns in Resources */,
 				A70028570CA6CB7B0057F7E4 /* jare2.gif in Resources */,
 				A70028580CA6CB7B0057F7E4 /* kaki1.gif in Resources */,
 				A70028590CA6CB7B0057F7E4 /* kaki2.gif in Resources */,
