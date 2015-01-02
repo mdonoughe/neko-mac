@@ -59,9 +59,9 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Neko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A700278B0CA641680057F7E4 /* MyPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPanel.h; sourceTree = "<group>"; };
-		A700278C0CA641680057F7E4 /* MyPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPanel.m; sourceTree = "<group>"; };
-		A70027B10CA6447E0057F7E4 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
-		A70027B20CA6447E0057F7E4 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		A700278C0CA641680057F7E4 /* MyPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyPanel.m; path = MyPanel.m; sourceTree = "<group>"; };
+		A70027B10CA6447E0057F7E4 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyView.h; path = MyView.h; sourceTree = "<group>"; };
+		A70027B20CA6447E0057F7E4 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyView.m; path = MyView.m; sourceTree = "<group>"; };
 		A700282E0CA6CB7B0057F7E4 /* awake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = awake.gif; sourceTree = "<group>"; };
 		A700282F0CA6CB7B0057F7E4 /* down1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = down1.gif; sourceTree = "<group>"; };
 		A70028300CA6CB7B0057F7E4 /* dtogi1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dtogi1.gif; sourceTree = "<group>"; };
@@ -111,8 +111,13 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A700278B0CA641680057F7E4 /* MyPanel.h */,
+				A700278C0CA641680057F7E4 /* MyPanel.m */,
+				A70027B10CA6447E0057F7E4 /* MyView.h */,
+				A70027B20CA6447E0057F7E4 /* MyView.m */,
 			);
 			name = Classes;
+			path = src;
 			sourceTree = "<group>";
 		};
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
@@ -158,12 +163,9 @@
 			children = (
 				32CA4F630368D1EE00C91783 /* 猫_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
-				A700278B0CA641680057F7E4 /* MyPanel.h */,
-				A700278C0CA641680057F7E4 /* MyPanel.m */,
-				A70027B10CA6447E0057F7E4 /* MyView.h */,
-				A70027B20CA6447E0057F7E4 /* MyView.m */,
 			);
 			name = "Other Sources";
+			path = src;
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -205,7 +207,7 @@
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
