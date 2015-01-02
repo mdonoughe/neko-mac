@@ -95,6 +95,7 @@
 		A700284C0CA6CB7B0057F7E4 /* utogi1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = utogi1.gif; sourceTree = "<group>"; };
 		A700284D0CA6CB7B0057F7E4 /* utogi2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = utogi2.gif; sourceTree = "<group>"; };
 		A78E7A3E1A575EFE008B4180 /* Neko.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Neko.entitlements; sourceTree = "<group>"; };
+		A78E7A3F1A576567008B4180 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7B9FF1C1A575C310074B4D4 /* Neko.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Neko.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +152,7 @@
 		29B97314FDCFA39411CA2CEA /* 猫 */ = {
 			isa = PBXGroup;
 			children = (
+				A78E7A3F1A576567008B4180 /* Info.plist */,
 				A78E7A3E1A575EFE008B4180 /* Neko.entitlements */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
